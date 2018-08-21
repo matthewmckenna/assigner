@@ -13,15 +13,15 @@ usage: assigner.py [-h] [-s SEED] names choices
 To run the application, two filenames must be provided—the first should contain the names, and the second should contain the choices to be assigned.
 
 Positional arguments | Description
--------------------- | -----------
+:------------------- | :----------
 `names`              | filename containing names of individuals in the draw
 `choices`            | filename containing choices
 
 Optionally, you can set the seed with `-s` or `--seed` in order to obtain reproducible results.
 
-Optional arguments   | Description
--------------------- | -----------
-`-s, --seed`         | random seed for reproducible results (default: None)
+Optional arguments | Description
+:----------------- | :----------
+`-s, --seed`       | random seed for reproducible results (default: None)
 
 This application handles cases where the number of choices is greater than the number of names, and where the number of names is greater than the number of choices.
 
